@@ -28,7 +28,7 @@ public class Zoo {
             } else if(animal instanceof Swimable) {
                 Swimable creep = (Swimable) animal ;
                 System.out.print("\t" + creep.swim() + "\n");
-            }
+            } else System.out.print("\t" +"walk around" + "\n");
         }
 
     }
